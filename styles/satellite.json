@@ -1,8 +1,8 @@
 {
   "version": 8,
   "sources": {
-    "esri-imagery": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256, "attribution": "© Esri, Maxar, Earthstar Geographics", "maxzoom": 19 },
-    "esri-labels": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256, "maxzoom": 19 }
+    "esri-imagery": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256, "attribution": "© Esri, Maxar, Earthstar Geographics", "maxzoom": 17 },
+    "esri-labels": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256, "maxzoom": 17 }
   },
   "layers": [{ "id": "esri-imagery", "type": "raster", "source": "esri-imagery" }, { "id": "esri-labels", "type": "raster", "source": "esri-labels" }]
 }
